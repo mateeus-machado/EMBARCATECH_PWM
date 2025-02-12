@@ -58,10 +58,10 @@ O projeto demonstrou com sucesso a movimentação do servomotor entre os ângulo
 
 ## Link para o Vídeo
 O vídeo demonstrativo do funcionamento do projeto pode ser acessado pelo seguinte link:
-[Vídeo da Simulação](https://www.dropbox.com/scl/fi/i32f4t9dqggn4c1durb4o/2025-02-04-08-52-05.mkv?rlkey=s6ofq9yumuts3h8chte052cuj&dl=0)
+[Vídeo da Simulação](https://youtu.be/e7x-uKSSxso)
 
 ## Autor
-**Mateus Machado**
+**Matheus Machado**
 
 ## Licença
 Este projeto está sob a licença MIT.
