@@ -63,6 +63,3 @@ O vídeo demonstrativo do funcionamento do projeto pode ser acessado pelo seguin
 ## Autor
 **Matheus Machado**
 
-## Licença
-Este projeto está sob a licença MIT.
-
