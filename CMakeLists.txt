@@ -35,13 +35,16 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(EMBARCATECH_PWM EMBARCATECH_PWM.c )
+add_executable(EMBARCATECH_PWM 
+
+EMBARCATECH_PWM.c )
+
 
 pico_set_program_name(EMBARCATECH_PWM "EMBARCATECH_PWM")
 pico_set_program_version(EMBARCATECH_PWM "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(EMBARCATECH_PWM 1)
+pico_enable_stdio_uart(EMBARCATECH_PWM 0)
 pico_enable_stdio_usb(EMBARCATECH_PWM 1)
 
 # Add the standard library to the build
@@ -55,8 +58,9 @@ target_include_directories(EMBARCATECH_PWM PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(EMBARCATECH_PWM 
+        hardware_pwm
+        hardware_clocks
         
         )
 
 pico_add_extra_outputs(EMBARCATECH_PWM)
-
